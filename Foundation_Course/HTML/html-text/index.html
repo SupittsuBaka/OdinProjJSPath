@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextFormatting</title>
+</head>
+<body>
+    <!-- Paragraphs -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.</p>  
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat.</p>
+    
+    <!-- Headings -->
+    <h1>This is a heading 1</h1> <!-- From LARGEST-->
+    <h2>This is a heading 2</h2>
+    <h3>This is a heading 3</h3>
+    <h4>This is a heading 4</h4>
+    <h5>This is a heading 5</h5>
+    <h6>This is a heading 6</h6> <!-- To tiniest -->
+
+    <!-- Strong - same as <b>(bold), but marks as important
+                            (affect on screen readers)-->
+    <strong>Lorem ipsum dolor</strong>
+    <p>Lorem ipsum <strong>dolor sit</strong> amet, consectetur adipiscing elit.</p>
+
+    <!-- Em - same as <i>(italic), but marks as important
+                            (affect on screen readers)-->
+    <p>Lorem ipsum <em>dolor sit</em> amet,
+        consectetur adipiscing elit.</p>
+
+    <!-- When we nest elements within other elements, we create a parent 
+        and child relationship between them. The nested elements are the 
+        children and the element they are nested within is the parent.-->
+    <div> <!-- Parent -->
+        <p>Lorem ipsum dolor sit amet.</p> <!-- Child -->
+    </div>
+
+    <!-- Elements at the same level of nesting are considered 
+                                                to be siblings.-->
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Ut enim ad minim veniam.</p>
+    </div>
+
+    <!-- as in text -->
+    <small>This is some smaller text.</small>
+
+    <!-- Element defines text that should be marked or highlighted -->
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <!-- Browsers will usually strike a line through deleted text -->
+    <p>My favorite color is <del>blue</del> red.</p>
+
+    <!-- Browsers will usually underline inserted text -->
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+    <!-- as in text -->
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+</body>
+</html>
