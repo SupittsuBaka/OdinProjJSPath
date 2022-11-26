@@ -1,1 +1,1 @@
-My self-stuby with Odin Project
+My self-study with Odin Project
